@@ -1,5 +1,5 @@
 # Awaken thee, Romanian!
-Awaken thee, Romanian is a rework mod of Wallachia and Romania, it adds a more historical and flavour filled way to form Romania as opposed to vanilla Vic3 where you have to go to war with 2 of the 3 Great Powers that surround you to even form it. It also adds a bunch of journal entries, events and the ability for the AI to form the Little Union and Romania at specific historical dates!
+Awaken thee, Romanian is a rework mod of Wallachia/Romania, it adds a more historical and flavour filled way to form Romania as opposed to vanilla Vic3 where you have to go to war with literally all the Great Powers that surround you to even form it. It also adds a bunch of journal entries, events and the ability for the AI to form the Little Union and Romania at specific historical dates!
 
 -To form Romania you will need to draft the First Constitution which will require you to reform the Wallachian state, guarantee the basic human rights to your people and unite the thrones of Wallachia and Moldavia into one personal union, the Little Union as its often called.
 
