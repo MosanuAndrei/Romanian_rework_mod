@@ -7,6 +7,10 @@ Awaken thee, Romanian is a rework mod of Wallachia/Romania, it adds a more histo
 
 -With your independence secured you can embark on the arduous task of forming Greater Romania, which will require you to fight both the Austrians for Transylvania and the Russians for Bessarabia with the ambitious goal of uniting all romanians under one state.
 
+-The color of Austria was changed from yellow to brownish-red like it used to be in Victoria II
+
+-The color of Romania was changed from blue to yellow like it used to be in Victoria II and Hearts of Iron IV
+
 Potential issues:
 
 -For unknown reasons Moldavia might decide to leave your personal union without any notice or diplomatic play, if that happens you have a decision to fix the bug.
