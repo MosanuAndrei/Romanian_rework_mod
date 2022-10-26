@@ -10,7 +10,7 @@ romanian_events.1 = {
 	duration = 3
 
 	event_image = {
-		video = "gfx/event_pictures/situation_image_1080_720_no_mask.bk2"
+		video = "gfx/event_pictures/unused/situation_image_1080_720_no_mask.bk2"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
@@ -61,7 +61,7 @@ romanian_events.2 = {
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	on_opened_soundeffect = "event:/SFX/Events/unspecific/world_fair"
-	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
 
 	title = romanian_events.2.t
 	desc = romanian_events.2.d
@@ -82,7 +82,7 @@ romanian_events.2 = {
 romanian_events.3 = {
 
 	type = country_event
-
+	popup = yes
 	event_image = {
 		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
 	}
@@ -100,14 +100,6 @@ romanian_events.3 = {
 
 	option = {
 		name = romanian_events.3.a
-
-		c:TUR = {
-			remove_diplomatic_pact = {
-            	country = c:MOL
-				target = c:TUR
-            	type = protectorate
-			}
-		}
 		
 		create_diplomatic_pact = {
             country = c:MOL
@@ -157,7 +149,7 @@ romanian_events.5 = {
 	type = country_event
 	
 	event_image = {
-		video = "gfx/event_pictures/africa_leader_arguing.bk2"
+		video = "gfx/event_pictures/unspecific_ruler_speaking_to_people.bk2"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
@@ -182,7 +174,7 @@ romanian_events.5 = {
 	}
 }
 
-# 
+# Secure Dobrudja
 romanian_events.6 = {
 
 	type = country_event
@@ -204,22 +196,19 @@ romanian_events.6 = {
 	option = {
 		name = romanian_events.6.a
 		
-		s:STATE_EASTERN_TRANSYLVANIA = {
+		s:STATE_SOUTHERN_TRANSYLVANIA = {
 			add_claim = ROOT
 		}
 		s:STATE_BANAT = {
 			add_claim = ROOT
 		}
-		s:STATE_WESTERN_TRANSYLVANIA = {
+		s:STATE_NORTHERN_TRANSYLVANIA = {
 			add_claim = ROOT
 		}
 		s:STATE_BEKES = {
 			add_claim = ROOT
 		}
 		s:STATE_BESSARABIA = {
-			add_claim = ROOT
-		}
-		s:STATE_MOLDAVIA = {
 			add_claim = ROOT
 		}
 	}

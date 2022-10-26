@@ -2,12 +2,13 @@
 # Draft the First Constitution
 je_draft_constitution = {
 
-	#icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
 	
 	complete = {
 		scope:journal_entry = {
 			is_goal_complete = yes
 		}
+		has_technology_researched = egalitarianism
 	}
 
 	on_complete = {
@@ -20,9 +21,7 @@ je_draft_constitution = {
 			type = je_secure_dobruja
 		}
 
-		set_variable = {
-			name = drafted_constitution
-		}
+		set_variable = drafted_constitution
 	}
 	
 	current_value = {
@@ -59,8 +58,10 @@ je_little_union = {
 
 				exists = c:MOL
 				exists = c:FRA
-				exists = c:PRU
+				exists = c:GBR
 				exists = c:RUS
+				exists = c:AUS
+				exists = c:PRU
 
 				c:MOL = {
 					relations:ROOT >= relations_threshold:amicable
@@ -68,10 +69,16 @@ je_little_union = {
 				c:FRA = {
 					relations:ROOT >= relations_threshold:amicable
 				}
-				c:PRU = {
+				c:GBR = {
 					relations:ROOT >= relations_threshold:amicable
 				}
 				c:RUS = {
+					relations:ROOT >= relations_threshold:amicable
+				}
+				c:AUS = {
+					relations:ROOT >= relations_threshold:amicable
+				}
+				c:PRU = {
 					relations:ROOT >= relations_threshold:amicable
 				}
 			}
@@ -81,12 +88,16 @@ je_little_union = {
 	on_complete = {
 		trigger_event = {
 			id = romanian_events.3
-			popup = no
+			popup = yes
 		}
 
 		change_variable = {
 			name = drafting_progress_var
 			add = 1
+		}
+
+		s:STATE_MOLDAVIA = {
+			add_claim = ROOT
 		}
 	}
 
@@ -110,7 +121,7 @@ je_basic_rights = {
 	on_complete = {
 		trigger_event = {
 			id = romanian_events.4
-			popup = no
+			popup = yes
 		}
 
 		change_variable = {
@@ -139,7 +150,7 @@ je_bureaucratic_reform = {
 	on_complete = {
 		trigger_event = {
 			id = romanian_events.5
-			popup = no
+			popup = yes
 		}
 
 		change_variable = {
@@ -184,9 +195,9 @@ je_form_greater_romania = {
 
 	complete = {
         owns_entire_state_region = STATE_DOBRUDJA
-		owns_entire_state_region = STATE_EASTERN_TRANSYLVANIA
+		owns_entire_state_region = STATE_SOUTHERN_TRANSYLVANIA
 		owns_entire_state_region = STATE_BANAT
-		owns_entire_state_region = STATE_WESTERN_TRANSYLVANIA
+		owns_entire_state_region = STATE_NORTHERN_TRANSYLVANIA
 		owns_entire_state_region = STATE_BEKES
 		owns_entire_state_region = STATE_BESSARABIA
 		owns_entire_state_region = STATE_MOLDAVIA

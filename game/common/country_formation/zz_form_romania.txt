@@ -20,6 +20,7 @@ ROM = {
 				c:WAL = ROOT
 				c:MOL = {
 					is_subject_of = ROOT
+				}
 				has_variable = drafted_constitution
 			}
 		}		

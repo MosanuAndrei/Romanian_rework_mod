@@ -8,7 +8,5 @@ Awaken thee, Romanian is a rework mod of Wallachia and Romania, it adds a more h
 -With your independence secured you can embark on the arduous task of forming Greater Romania, which will require you to fight both the Austrians for Transylvania and the Russians for Bessarabia with the ambitious goal of uniting all romanians under one state.
 
 Potential issues:
-      
+
 -For unknown reasons Moldavia might decide to leave your personal union without any notice or diplomatic play, if that happens you have a decision to fix the bug.
-      
--Before you start playing make sure at least one of the interests groups leaders has the abolition trait, otherwise is gonna be quite impossible for you to abolish serfdom as well as slavery.
