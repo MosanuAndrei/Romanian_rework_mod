@@ -57,29 +57,38 @@ je_little_union = {
 				has_technology_researched = nationalism
 
 				exists = c:MOL
-				exists = c:FRA
-				exists = c:GBR
 				exists = c:RUS
-				exists = c:AUS
-				exists = c:PRU
 
 				c:MOL = {
 					relations:ROOT >= relations_threshold:amicable
 				}
-				c:FRA = {
-					relations:ROOT >= relations_threshold:amicable
-				}
-				c:GBR = {
-					relations:ROOT >= relations_threshold:amicable
-				}
+
 				c:RUS = {
 					relations:ROOT >= relations_threshold:amicable
 				}
-				c:AUS = {
-					relations:ROOT >= relations_threshold:amicable
+
+				OR = {
+					exists = c:FRA
+					exists = c:GBR
+
+					c:FRA = {
+						relations:ROOT >= relations_threshold:amicable
+					}
+					c:GBR = {
+						relations:ROOT >= relations_threshold:amicable
+					}
 				}
-				c:PRU = {
-					relations:ROOT >= relations_threshold:amicable
+
+				OR = {
+					exists = c:AUS
+					exists = c:PRU
+					
+					c:AUS = {
+						relations:ROOT >= relations_threshold:amicable
+					}
+					c:PRU = {
+						relations:ROOT >= relations_threshold:amicable
+					}
 				}
 			}
 		}
