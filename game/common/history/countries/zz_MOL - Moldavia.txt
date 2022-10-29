@@ -1,5 +1,5 @@
-﻿COUNTRIES = {
-	c:WAL = {
+COUNTRIES = {
+	c:MOL = {
 		effect_starting_technology_tier_3_tech = yes
 		
 		effect_starting_politics_traditional = yes
@@ -10,18 +10,14 @@
 			remove_ideology = ideology_patriarchal
 			add_ideology = ideology_orthodox_patriarch
 		}
-
-		activate_law = law_type:law_religious_schools
+		
+        activate_law = law_type:law_religious_schools
         activate_law = law_type:law_legacy_slavery
         activate_law = law_type:law_serfdom_banned
-
+		activate_law = law_type:law_migration_controls
+	
         ig:ig_landowners = { 
             set_interest_group_name = ig_boyars
         }
-
-		trigger_event = {
-			id = romanian_events.1
-			popup = no
-		}
 	}
 }

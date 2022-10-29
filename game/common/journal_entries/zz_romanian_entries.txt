@@ -54,10 +54,12 @@ je_little_union = {
 			}
 			AND = {
 				is_at_war = no
+				exists = c:MOL
 				has_technology_researched = nationalism
 
-				exists = c:MOL
-				exists = c:RUS
+        		NOR = {
+					has_law = law_type:law_closed_borders
+				}
 
 				c:MOL = {
 					relations:ROOT >= relations_threshold:amicable
@@ -68,9 +70,6 @@ je_little_union = {
 				}
 
 				OR = {
-					exists = c:FRA
-					exists = c:GBR
-
 					c:FRA = {
 						relations:ROOT >= relations_threshold:amicable
 					}
@@ -80,9 +79,6 @@ je_little_union = {
 				}
 
 				OR = {
-					exists = c:AUS
-					exists = c:PRU
-					
 					c:AUS = {
 						relations:ROOT >= relations_threshold:amicable
 					}
@@ -123,7 +119,7 @@ je_basic_rights = {
 	complete = {
 		has_law = law_type:law_slavery_banned
         NOR = {
-			has_law = law_type:law_serfdom
+			has_law = law_type:law_traditionalism
 		}
 	}
 
@@ -142,15 +138,16 @@ je_basic_rights = {
 	weight = 5000
 }
 
-# Bureaucratic reforms and the right to vote
+# Extend the Organic Regulations
 je_bureaucratic_reform = {
 
 	icon = "gfx/interface/icons/event_icons/event_scales.dds"
 
 	complete = {
         NOR = { 
-			has_law = law_type:law_hereditary_bureaucrats 
+			has_law = law_type:law_hereditary_bureaucrats
 			has_law = law_type:law_autocracy
+			has_law = law_type:law_oligarchy
 		}
 		bureaucracy >= 0 
 		approaching_bureaucracy_shortage = no
