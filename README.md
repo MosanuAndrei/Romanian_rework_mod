@@ -5,6 +5,7 @@ Features:
 
    -New journal entries and events that will guide you through out the 19th century, such as: drafting the first Constitution of Romania, achieving the           Little     
    -Union, fight for your independence and embark on the arduous task of forming Greater Romania!
+   
    -The ability for the AI to form the Little Union and Romania at specific historical dates: 1859 and 1866
    
    -The law systems of both principalities have been reworked to better reflect the state of things in 1836
