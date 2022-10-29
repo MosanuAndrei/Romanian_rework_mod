@@ -21,7 +21,3 @@ Potential issues:
    For unknown reasons the Ottoman Empire might grant independence to both principalities, if that happens and you already formed the PU with Moldavia it will leave your PU without any notice or diplomatic play, if that happens you have a decision to fix the bug found in the Decisions tab.
 
 Special thanks to Mr.StelarCF contribution! He added the features with the * fixed some of the localisations and created the thumbnail.
-
-The mod can also be found at Nexus Mods: https://www.nexusmods.com/victoria3/mods/1
-
-The mod can also be found at the Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2881523214
