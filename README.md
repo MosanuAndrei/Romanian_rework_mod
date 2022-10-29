@@ -5,27 +5,18 @@ Features:
 
    -New journal entries and events that will guide you through out the 19th century, such as: drafting the first Constitution of Romania, achieving the           Little     
    -Union, fight for your independence and embark on the arduous task of forming Greater Romania!
-    
    -The ability for the AI to form the Little Union and Romania at specific historical dates: 1859 and 1866
-    
    -The law systems of both principalities have been reworked to better reflect the state of things in 1836
-    
-   -Fixed The Wallachian and Moldovian flags as well as adding new flags such as the Brotherhood and Justice revolutionary flag, the Little Union flag and a        war flag for Wallachia
-    
+   -Fixed The Wallachian and Moldovian flags as well as adding new flags such as the Brotherhood and Justice revolutionary flag, the Little Union flag and a     war flag for Wallachia
    -Dynamic map color and name for Wallachia once the Little Union is achieved
-    
    -The color of Romania was changed from blue to yellow like it used to be in Victoria II and Hearts of Iron IV
 
 Installation guide:
 
 Step 1: Place the "Awaken thee, Romanian!" folder in "C:\Users\username\Documents\Paradox Interactive\Victoria 3\mod"
-
 Step 2: To enable the mod you need first to create a Playset in the Paradox Launcher, it's under Resume/Play buttons.
-
 Step 3: Once a Playset has been created click ADD MODS button, check "Awaken thee, Romanian!" and click ADD TO PLAYSET
-
 Step 4: That's it you are set just hit play and have fun!
-
 Update Guide: Just delete the mod folder and put the newly updated one it it's place.
 
 Potential issues:
