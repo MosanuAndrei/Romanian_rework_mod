@@ -14,7 +14,6 @@ Features:
    
    -The color of Romania was changed from blue to yellow like it used to be in Victoria II and Hearts of Iron IV
 
-Update Guide: Just delete the mod folder and put the newly updated one it it's place.
 
 Potential issues:
 
