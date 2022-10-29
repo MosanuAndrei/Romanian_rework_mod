@@ -18,5 +18,3 @@ Features:
 Potential issues:
 
    For unknown reasons the Ottoman Empire might grant independence to both principalities, if that happens and you already formed the PU with Moldavia it will leave your PU without any notice or diplomatic play, if that happens you have a decision to fix the bug found in the Decisions tab.
-
-Special thanks to Mr.StelarCF contribution! He added the features with the * fixed some of the localisations and created the thumbnail.
