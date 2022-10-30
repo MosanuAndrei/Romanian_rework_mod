@@ -17,4 +17,8 @@ Features:
 
 Potential issues:
 
-   For unknown reasons the Ottoman Empire might grant independence to both principalities, if that happens and you already formed the PU with Moldavia it will leave your PU without any notice or diplomatic play, if that happens you have a decision to fix the bug found in the Decisions tab.
+-For unknown reasons the Ottoman Empire might grant independence to both principalities, if that happens and you already formed the PU with Moldavia it will leave your PU without any notice or diplomatic play, if that happens you have a decision to fix the bug found in the Decisions tab.
+
+-If Moldavia is annexed and then released, it will still be counted as annexed and you will not be able to form the personal union via the Little Union journal entry which will also lock you from forming Romania.
+
+It is strongly recommended to install an Austria-Hungary color mod since both countries will share more or less the same color.
