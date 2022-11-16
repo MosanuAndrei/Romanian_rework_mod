@@ -14,7 +14,6 @@ COUNTRIES = {
         activate_law = law_type:law_religious_schools
         activate_law = law_type:law_legacy_slavery
         activate_law = law_type:law_serfdom_banned
-		activate_law = law_type:law_migration_controls
 	
         ig:ig_landowners = { 
             set_interest_group_name = ig_boyars

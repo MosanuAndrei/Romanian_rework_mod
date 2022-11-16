@@ -101,6 +101,14 @@ romanian_events.3 = {
 	option = {
 		name = romanian_events.3.a
 		
+		c:TUR = {
+  			remove_diplomatic_pact = {
+    			country = c:MOL
+    			target = c:TUR
+    			type = protectorate
+  			}
+		}
+
 		create_diplomatic_pact = {
             country = c:MOL
 			target = c:WAL
