@@ -1,0 +1,16 @@
+﻿l_english:
+ je_reform_industrialise:0 "Reform the state and industrialise"
+ je_reform_industrialise_goal:0 ""
+ je_reform_industrialise_reason:0 ""
+
+ je_army_modernization:0 "Army reform and modernization"
+ je_army_modernization_reason:0 ""
+
+ je_side_russia:0 "Side with the Russians"
+ je_side_russia_reason:0 ""
+
+ je_conquer_wallachia_dobruja:0 "Conquer Wallachia & Dobruja"
+ je_conquer_wallachia_dobruja_reason:0 ""
+
+ je_form_greater_romania_mol:0 "Form Greater Romania"
+ je_form_greater_romania_mol_reason:0 ""

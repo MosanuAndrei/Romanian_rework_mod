@@ -5,25 +5,36 @@ ROM = {
 
 	possible = {
 		OR = {
-			hidden_trigger = {
+			c:WAL = {
+				OR = {
+					hidden_trigger = {
+						AND = {
+							is_player = no
+							game_date >= 1866
+						}
+					}
+
+					AND = {
+						has_technology_researched = nationalism
+
+						exists = c:WAL
+						exists = c:MOL
+						c:WAL = ROOT
+						c:MOL = {
+							is_subject_of = ROOT
+						}
+						has_variable = drafted_constitution
+					}
+				}
+			}
+
+			c:MOL = {
 				AND = {
-					is_player = no
-					game_date >= 1866
+					has_technology_researched = nationalism
+					has_variable = form_romanian_nation
 				}
 			}
-
-			AND = {
-				has_technology_researched = nationalism
-
-				exists = c:WAL
-				exists = c:MOL
-				c:WAL = ROOT
-				c:MOL = {
-					is_subject_of = ROOT
-				}
-				has_variable = drafted_constitution
-			}
-		}		
+		}
 	}
 
 	ai_will_do = { always = yes }

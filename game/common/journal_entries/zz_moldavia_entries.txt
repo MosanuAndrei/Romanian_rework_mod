@@ -1,0 +1,171 @@
+
+# Side with the Russians
+je_side_russia = {
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	
+	complete = {
+		is_at_war = no
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = moldavia_events.4
+			popup = yes
+		}
+
+		add_journal_entry = {
+			type = je_conquer_wallachia_dobruja
+		}
+	}
+
+	current_value = {
+		value = var:side_rus_progress_var
+	}
+	
+	goal_add_value = {
+		add = 2
+	}
+
+	weight = 10000
+	
+	progressbar = yes
+
+	should_be_pinned_by_default = yes
+
+	weight = 5000
+}
+
+# Reform the state and industrialise
+je_reform_industrialise = {
+
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+	
+	complete = {
+		has_law = law_type:law_slavery_banned
+        NOR = {
+			has_law = law_type:law_hereditary_bureaucrats
+			has_law = law_type:law_closed_borders
+			has_law = law_type:law_autocracy
+			has_law = law_type:law_oligarchy
+		}
+
+		any_scope_building = {
+			is_building_type = building_urban_center
+			level >= 3
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = moldavia_events.2
+			popup = no
+		}
+
+		change_variable = {
+			name = side_rus_progress_var
+			add = 1
+		}
+	}
+
+	weight = 9000
+}
+
+# Army reform and modernization
+je_army_modernization = {
+
+	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	
+	complete = {
+		NOR = {
+			has_law = law_type:law_peasant_levies
+		}
+		has_technology_researched = logistics
+		has_technology_researched = field_works
+		has_technology_researched = shell_gun
+
+		army_size >= 25
+
+		any_scope_building = {
+			is_building_type = building_arms_industry
+			level >= 3
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = moldavia_events.3
+			popup = yes
+		}
+
+		change_variable = {
+			name = side_rus_progress_var
+			add = 1
+		}
+
+	}
+
+	weight = 9000
+}
+
+# Conquer Wallachia & Dobruja
+je_conquer_wallachia_dobruja = {
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	complete = {
+		has_technology_researched = nationalism
+        owns_entire_state_region = STATE_DOBRUDJA
+		owns_entire_state_region = STATE_WALLACHIA
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = moldavia_events.5
+			popup = no
+		}
+
+		add_journal_entry = {
+			type = je_form_greater_romania_mol
+		}
+
+		set_variable = form_romanian_nation
+	}
+
+	weight = 10000
+
+	should_be_pinned_by_default = yes
+}
+
+# Form Greater Romania
+je_form_greater_romania_mol = {
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	complete = {
+		is_subject = no
+
+        owns_entire_state_region = STATE_DOBRUDJA
+		owns_entire_state_region = STATE_SOUTHERN_TRANSYLVANIA
+		owns_entire_state_region = STATE_BANAT
+		owns_entire_state_region = STATE_NORTHERN_TRANSYLVANIA
+		owns_entire_state_region = STATE_BEKES
+		owns_entire_state_region = STATE_BESSARABIA
+		owns_entire_state_region = STATE_MOLDAVIA
+		owns_entire_state_region = STATE_WALLACHIA
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = moldavia_events.6
+			popup = no
+		}
+	}
+
+	weight = 10000
+	
+	should_be_pinned_by_default = yes
+}

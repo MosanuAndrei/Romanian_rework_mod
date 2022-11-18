@@ -13,7 +13,7 @@ je_draft_constitution = {
 
 	on_complete = {
 		trigger_event = {
-			id = romanian_events.2
+			id = wallachia_events.2
 			popup = no
 		}
 
@@ -92,7 +92,7 @@ je_little_union = {
 
 	on_complete = {
 		trigger_event = {
-			id = romanian_events.3
+			id = wallachia_events.3
 			popup = yes
 		}
 
@@ -125,7 +125,7 @@ je_basic_rights = {
 
 	on_complete = {
 		trigger_event = {
-			id = romanian_events.4
+			id = wallachia_events.4
 			popup = yes
 		}
 
@@ -155,7 +155,7 @@ je_bureaucratic_reform = {
 
 	on_complete = {
 		trigger_event = {
-			id = romanian_events.5
+			id = wallachia_events.5
 			popup = yes
 		}
 
@@ -180,7 +180,7 @@ je_secure_dobruja = {
 
 	on_complete = {
 		trigger_event = {
-			id = romanian_events.6
+			id = wallachia_events.6
 			popup = no
 		}
 
@@ -212,7 +212,7 @@ je_form_greater_romania = {
 
 	on_complete = {
 		trigger_event = {
-			id = romanian_events.7
+			id = wallachia_events.7
 			popup = no
 		}
 	}

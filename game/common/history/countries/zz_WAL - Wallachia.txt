@@ -20,7 +20,7 @@
         }
 
 		trigger_event = {
-			id = romanian_events.1
+			id = wallachia_events.1
 			popup = no
 		}
 	}

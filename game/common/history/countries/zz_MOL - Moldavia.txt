@@ -18,5 +18,10 @@ COUNTRIES = {
         ig:ig_landowners = { 
             set_interest_group_name = ig_boyars
         }
+
+		trigger_event = {
+			id = moldavia_events.1
+			popup = no
+		}
 	}
 }
