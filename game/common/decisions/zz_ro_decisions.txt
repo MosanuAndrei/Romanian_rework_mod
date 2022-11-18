@@ -10,6 +10,7 @@ fix_pu_moldavia = {
 		exists = c:MOL
 		c:MOL = {
 			is_subject = no
+			is_player = no
 		}
 	}
 	
@@ -19,5 +20,50 @@ fix_pu_moldavia = {
 			target = c:WAL
             type = personal_union
 		}
+	}
+	ai_chance = {
+		base = 100
+	}
+}
+
+# Add claims for AI Romania
+add_claims_ro = {
+	is_shown = {
+		this = c:ROM
+		is_player = no
+	}
+
+	possible = {
+		c:ROM = {
+			is_player = no
+			game_date >= 1866
+		}
+	}
+	
+	when_taken = {
+		s:STATE_SOUTHERN_TRANSYLVANIA = {
+			add_claim = ROOT
+		}
+		s:STATE_BANAT = {
+			add_claim = ROOT
+		}
+		s:STATE_NORTHERN_TRANSYLVANIA = {
+			add_claim = ROOT
+		}
+		s:STATE_BEKES = {
+			add_claim = ROOT
+		}
+		s:STATE_BESSARABIA = {
+			add_claim = ROOT
+		}
+		s:STATE_DOBRUDJA = {
+			add_claim = ROOT
+		}
+		s:STATE_MOLDAVIA = {
+			add_claim = ROOT
+		}
+	}	
+	ai_chance = {
+		base = 100
 	}
 }

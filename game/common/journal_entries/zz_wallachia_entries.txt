@@ -50,6 +50,9 @@ je_little_union = {
 				AND = {
 					is_player = no
 					game_date >= 1859
+					c:MOL = {
+						is_player = no
+					}
 				}
 			}
 			AND = {

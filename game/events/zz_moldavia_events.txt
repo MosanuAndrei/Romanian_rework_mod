@@ -101,18 +101,13 @@ moldavia_events.3 = {
 	option = {
 		name = moldavia_events.3.a
 		
-		c:TUR = {
-  			remove_diplomatic_pact = {
-    			country = c:MOL
-    			target = c:TUR
-    			type = protectorate
-  			}
+		add_modifier = {
+			name = conscription_efforts_modifier
+			months = 24
 		}
-
-		create_diplomatic_pact = {
-            country = c:MOL
-			target = c:WAL
-            type = personal_union
+		add_modifier = {
+			name = zeppelins_military_modifier
+			months = 24
 		}
 	}
 }
@@ -121,7 +116,7 @@ moldavia_events.3 = {
 moldavia_events.4 = {
 
 	type = country_event
-	
+	popup = no
 	event_image = {
 		video = "gfx/event_pictures/europenorthamerica_rich_and_poor.bk2"
 	}
@@ -162,10 +157,12 @@ moldavia_events.4 = {
 			}
 		}
 
-		create_diplomatic_pact = {
-            country = c:MOL
-			target = c:RUS
-            type = protectorate
+		c:RUS ={
+			create_diplomatic_pact = {
+            	country = c:MOL
+				target = c:RUS
+            	type = protectorate
+			}
 		}
 
 		s:STATE_DOBRUDJA = {
@@ -199,6 +196,9 @@ moldavia_events.5 = {
 	option = {
 		name = moldavia_events.5.a
 		
+		s:STATE_MOLDAVIA = {
+			add_claim = ROOT
+		}
 		s:STATE_SOUTHERN_TRANSYLVANIA = {
 			add_claim = ROOT
 		}

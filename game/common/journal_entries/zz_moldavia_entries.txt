@@ -9,6 +9,14 @@ je_side_russia = {
 		scope:journal_entry = {
 			is_goal_complete = yes
 		}
+		AND = {
+			c:RUS = {
+				relations:ROOT >= relations_threshold:amicable
+			}
+			c:TUR = {
+				relations:ROOT <= relations_threshold:cold
+			}
+		}
 	}
 
 	on_complete = {
@@ -30,13 +38,11 @@ je_side_russia = {
 		add = 2
 	}
 
-	weight = 10000
-	
 	progressbar = yes
 
-	should_be_pinned_by_default = yes
+	weight = 10000
 
-	weight = 5000
+	should_be_pinned_by_default = yes
 }
 
 # Reform the state and industrialise
@@ -72,6 +78,8 @@ je_reform_industrialise = {
 	}
 
 	weight = 9000
+
+	should_be_pinned_by_default = yes
 }
 
 # Army reform and modernization
@@ -109,6 +117,8 @@ je_army_modernization = {
 	}
 
 	weight = 9000
+
+	should_be_pinned_by_default = yes
 }
 
 # Conquer Wallachia & Dobruja
