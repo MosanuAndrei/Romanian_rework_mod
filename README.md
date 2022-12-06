@@ -19,6 +19,7 @@ Features:
 • The color of Romania was changed from blue to yellow like it used to be in Victoria II and Hearts of Iron IV
 
 
+
 Potential issues:
 
 • If the Ottoman Empire fails to modernize it will release all its subjects, if that happens and you already formed the PU with Moldavia it will leave your PU without any notice or diplomatic play, you have a decision to fix the bug found in the Decisions tab.
