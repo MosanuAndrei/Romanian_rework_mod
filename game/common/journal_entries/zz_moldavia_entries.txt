@@ -2,7 +2,7 @@
 # Side with the Russians
 je_side_russia = {
 
-	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	complete = {
 		is_at_war = no
@@ -48,7 +48,7 @@ je_side_russia = {
 # Reform the state and industrialise
 je_reform_industrialise = {
 
-	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
 	
 	complete = {
 		has_law = law_type:law_slavery_banned
@@ -85,7 +85,7 @@ je_reform_industrialise = {
 # Army reform and modernization
 je_army_modernization = {
 
-	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
 	
 	complete = {
 		NOR = {
