@@ -3,7 +3,8 @@
 fix_pu_moldavia = {
 
 	is_shown = {
-		this = c:WAL
+		exists = c:WAL
+		c:WAL = ROOT
 	}
 
 	possible = {
@@ -29,7 +30,8 @@ fix_pu_moldavia = {
 # Add claims for AI Romania
 add_claims_ro = {
 	is_shown = {
-		this = c:ROM
+		exists = c:ROM
+		c:ROM = ROOT
 		is_player = no
 	}
 

@@ -30,4 +30,4 @@ Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=288152321
 
 Nexus Mods: https://www.nexusmods.com/victoria3/mods/1
 
-Total subscribers count as of 6-Dec-2022: 620
+Total subscribers count as of 7-Dec-2022: 625
