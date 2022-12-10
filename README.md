@@ -26,8 +26,4 @@ Potential issues:
 
 It is strongly recommended to install an Austria-Hungary color mod since both countries will share more or less the same color.
 
-Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2881523214
-
-Nexus Mods: https://www.nexusmods.com/victoria3/mods/1
-
 Total subscribers count as of 7-Dec-2022: 625
