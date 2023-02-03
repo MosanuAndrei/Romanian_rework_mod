@@ -26,4 +26,4 @@ Potential issues:
 
 It is strongly recommended to install an Austria-Hungary color mod since both countries will share more or less the same color.
 
-Total subscribers count as of 20-Jan-2023: 783
+Total subscribers count as of 03-Feb-2023: 821
