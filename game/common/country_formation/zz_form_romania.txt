@@ -12,7 +12,7 @@ ROM = {
 							is_player = no
 							game_date >= 1866
 							c:MOL = {
-								s_player = no
+								is_player = no
 							}
 						}
 					}
